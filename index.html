@@ -35,6 +35,36 @@
           text-align: end;
           border-bottom: 1px solid black;
         }
+        .bill-body{
+      
+       
+        }
+        .bill-title{
+          text-align: center;
+          font-size: 20px;
+        }
+        .bill-detail-key{
+color: rgb(184, 115, 26);
+width: 20%;
+
+        }
+        .bill-detail-value{
+          font-weight: bold;
+          border-bottom: 1px solid black;
+width: 20%;
+        }
+        .bill-detail{
+          display: flex;
+          justify-content: space-around;
+          font-size: 20px;
+          margin: 10px 0;
+        }
+        .accountant{
+          text-align: end;
+          font-size: 20px;
+          font-weight: bold;
+          margin-right: 20px;
+        }
        
     </style>
 </head>
@@ -53,7 +83,47 @@
   
 
     <div class="bill-body">
-    
+      <h3 class="bill-title">Payment Receipt</h3>
+      <div class="bill-detail">
+        <div class="bill-detail-key">
+           Receipt No.
+        </div>
+        <div class="bill-detail-value">
+          123456789
+        </div>
+
+      </div>
+
+      <div class="bill-detail">
+        <div class="bill-detail-key">
+          Paymet Date :
+        </div>
+        <div class="bill-detail-value">
+         14-May-2024
+        </div>
+
+      </div>
+
+      <div class="bill-detail">
+        <div class="bill-detail-key">
+           Amount :
+        </div>
+        <div class="bill-detail-value">
+          2000/-
+        </div>
+
+      </div>
+
+      <div class="bill-detail">
+        <div class="bill-detail-key">
+           Payment Mode :
+        </div>
+        <div class="bill-detail-value">
+        Online
+        </div>
+
+      </div>
+      <p class="accountant">Accountant Signature</p>
 
     </div>
 
